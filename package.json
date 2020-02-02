@@ -1,0 +1,29 @@
+{
+  "name": "find-brews-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/index.js",
+    "start:ci": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource": "^0.6.4",
+    "apollo-datasource-rest": "^0.6.11",
+    "apollo-server": "^2.9.16",
+    "apollo-server-testing": "^2.9.16",
+    "graphql": "^14.6.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "apollo-link": "^1.2.13",
+    "apollo-link-http": "^1.5.16",
+    "jest": "^25.1.0",
+    "nock": "^11.7.2",
+    "node-fetch": "^2.6.0"
+  }
+}
